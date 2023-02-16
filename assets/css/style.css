@@ -9,7 +9,7 @@ body {
   font-family: Open Sans, sans-serif;
   font-weight: 300;
   color: #FEE715FF;
-  background-color: #101820FF;
+  background-color: #1f1f1f;
 }
 
 /* headings and logo */
@@ -23,7 +23,7 @@ h1, h2 {
 
 #logo {
   float: left;
-  font-size: 400%;
+  font-size: 500%;
 }
 
 /* navigation links */
