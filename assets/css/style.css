@@ -8,7 +8,8 @@
 body {
   font-family: Open Sans, sans-serif;
   font-weight: 300;
-  color: #36454f;
+  color: #FEE715FF;
+  background-color: #101820FF;
 }
 
 /* headings and logo */
@@ -17,7 +18,7 @@ h1, h2 {
   font-family: Oswald, sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #252525;
+  color: #FEE715FF;
 }
 
 #logo {
@@ -56,11 +57,32 @@ h1, h2 {
   border-bottom: 1px solid #36454f;
 }
 
-/* fight-glove photo */
+/* fight glove image */
+
+#fight-glove-outer {
+  height: 1000px;
+  width: 100%;
+  overflow: visible;
+  }
 
 #fight-glove {
-  height: 600px;
+  height: 1000px;
   width: 100%;
-  background: url('../../photos/fight-glove.jpg') no-repeat center center;
+  background: url('../../images/fight-glove.jpg') no-repeat center center;
   background-size: cover; 
+
+  /* enlivens page load with zoom animation */
+  animation-name: fight-glove-zoom;
+  animation-duration: 1.5s;
+  animation-fill-mode: backwards;
+}
+
+/* level of zoom for fight glove image */
+@keyframes fight-glove-zoom {
+  from {
+    transform: scale(1.1);
+  }
+  to{
+    transform: scale(1);
+  }
 }
