@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Russo+One&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -15,7 +15,7 @@ body {
 /* headings and logo */
 
 h1, h2 {
-  font-family: Oswald, sans-serif;
+  font-family: Russo One, sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #FEE715FF;
@@ -23,7 +23,7 @@ h1, h2 {
 
 #logo {
   float: left;
-  font-size: 500%;
+  font-size: 400%;
 }
 
 /* navigation links */
@@ -57,16 +57,20 @@ h1, h2 {
   border-bottom: 1px solid #36454f;
 }
 
-/* fight glove image */
+/* fight glove image and cover text */
 
 #fight-glove-outer {
-  height: 1000px;
+  height: 800px;
   width: 100%;
   overflow: visible;
   }
 
+#cover-text, #cover-text h2 {
+    color: #FEE715FF;
+}
+
 #fight-glove {
-  height: 1000px;
+  height: 800px;
   width: 100%;
   background: url('../../images/fight-glove.jpg') no-repeat center center;
   background-size: cover; 
@@ -85,4 +89,24 @@ h1, h2 {
   to{
     transform: scale(1);
   }
+}
+
+#cover-text {
+  font-size: 180%;
+  font-family: Russo One, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  width: 400px;
+  height: 180px;
+
+  padding-top: 30px;
+  padding-left: 30px;
+
+  background-color: rgba(0, 0, 0, 0.7);
+
+  bottom: 30px;
+  left: 100px;
+
+  position: absolute;
 }
