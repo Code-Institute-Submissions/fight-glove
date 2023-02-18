@@ -82,6 +82,7 @@ h1, h2 {
 }
 
 /* level of zoom for fight glove image */
+
 @keyframes fight-glove-zoom {
   from {
     transform: scale(1.1);
@@ -90,6 +91,8 @@ h1, h2 {
     transform: scale(1);
   }
 }
+
+/* cover text */
 
 #cover-text {
   font-size: 180%;
@@ -111,6 +114,8 @@ h1, h2 {
   position: absolute;
 }
 
+/* fight glove h2 and paragraph */
+
 #why-fightglove {
   text-align: center;
   margin: 20px 0;
@@ -120,17 +125,21 @@ h1, h2 {
 }
 
 #why-fightglove p {
-  padding: 5px;
+  padding: 20px;
   text-align: justify; 
 }
 
 .left{
   width: 45%;
-  float: left; }
+  float: left;
+  color: orange; 
+ }
   
   .right{
   width: 45%;
-  float: right; }
+  float: right;
+  color: orange;  
+}
 
  /* footer */
 
@@ -152,3 +161,4 @@ footer {
   padding: 5%;
   color: #FEE715FF;
 }
+
