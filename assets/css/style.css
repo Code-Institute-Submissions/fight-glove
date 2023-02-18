@@ -9,7 +9,7 @@ body {
   font-family: Open Sans, sans-serif;
   font-weight: 300;
   color: #FEE715FF;
-  background-color: #1f1f1f;
+  background-color: black;
 }
 
 /* headings and logo */
@@ -103,10 +103,52 @@ h1, h2 {
   padding-top: 30px;
   padding-left: 30px;
 
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.627);
 
   bottom: 30px;
   left: 100px;
 
   position: absolute;
+}
+
+#why-fightglove {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 140%;
+
+  padding-bottom: 20px;
+}
+
+#why-fightglove p {
+  padding: 5px;
+  text-align: justify; 
+}
+
+.left{
+  width: 45%;
+  float: left; }
+  
+  .right{
+  width: 45%;
+  float: right; }
+
+ /* footer */
+
+footer {
+  height: 150px;
+}
+
+.social-networks {
+  text-align: center;
+}
+
+.social-networks > li {
+  display: inline;
+}
+
+.social-networks i {
+  font-size: 160%;
+  margin: 1%;
+  padding: 5%;
+  color: #FEE715FF;
 }
