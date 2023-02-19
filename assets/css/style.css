@@ -126,7 +126,7 @@ h1, h2 {
 
 #why-fightglove p {
   padding: 20px;
-  text-align: justify; 
+  text-align: justify;
 }
 
 .left{
@@ -192,29 +192,89 @@ footer {
   to{
     transform: scale(1);
   }
-  }
+}
+/* cover text 2 */
+
+#cover-text2 {
+  font-size: 70%;
+  font-family: Russo One, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  width: 600px;
+  height: 290px;
+
+  padding-top: 15px;
+  padding-left: 15px;
+
+  background-color: rgba(0, 0, 0, 0.627);
+
+  bottom: 15px;
+  left: 40px;
+
+  position: absolute; 
+}
+
+#cover-text2 h2 {
+  color: orange;
+}
+
+  /* cover text 3 */
+
+.cover-text3 {
+  font-size: 100%;
+  font-family: Russo One, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  
+  width: 450px;
+  height: 340px;
+  
+  padding-top: 10px;
+  padding-left: 20px;
+  
+  color: #FEE715FF;
+  background-color: rgba(0, 0, 0, 0.627);
+  
+  top: 150px;
+  right: 40px;
+  
+  position: absolute; 
+}
+
+.cover-text3 h1, p {
+  color: orange;
+
+  padding-bottom: 20px;
+}
+
+.cover-text3 h2 {
+  font-size: 100%;
+
+  padding-bottom: 20px;
+}
 
 /* member reviews */
 
 #reviews div {
-    background-color: rgba(0, 0, 0, 0.627);
+  background-color: rgba(0, 0, 0, 0.627);
 
-    font-size: 90%;
-    width: 20%;
-    height: 300px;
-    float: left;
+  font-size: 90%;
+  width: 20%;
+  height: 300px;
+  float: left;
 
-    padding: 30px 0 0 10px;
+  padding: 30px 0 0 10px;
 
-    text-align: center;
-    border: 2px solid black;
-    box-sizing: border-box;
+  text-align: center;
+  border: 2px solid black;
+  box-sizing: border-box;
 }
 
 #reviews h2, h4 {
-    color: orange;
+  color: orange;
 
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 #reviews h3 {
